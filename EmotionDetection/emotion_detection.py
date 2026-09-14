@@ -33,7 +33,3 @@ def emotion_detector(text_to_analyze):
     emotions["dominant_emotion"] = dominant_emotion
 
     return emotions
-    from emotion_detection import emotion_detector
-    from .emotion_detection import emotion_detector
-result = emotion_detector("I am so happy I am having fun")
-print(result)
